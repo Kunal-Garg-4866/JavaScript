@@ -1,17 +1,18 @@
-const accountId = 144553;
-let accountEmail = "kunal334@gmail.com";
-var acountPass = "myPass1234";
+const accountId  = 1234564;  // cannot be changed 
+let accountEmail = "kunalgarg6648@gmail.com"; // can be changed;
+var accountPassword = "12345";
+accountCity = "Ludhiana";
+let accountState;
+
+ //accountId = 2; not allowed 
+ accountEmail = "hc@gmail.com";
+ accountPassword = "67890";
 accountCity = "New York";
-  
- // accountId = 2; not alloewed
-accountEmail = "hc@n.com";
-accountCity = "Los Angeles";
+
 console.log(accountId);
-console.log(accountEmail);
+console.table([accountEmail, accountPassword, accountCity, accountState]);
 
-console.table([accountId, accountEmail, acountPass, accountCity]);
 /*
-preferred to use var
-because of isssue in block scope and funtional scope
-
+prefer not to use var 
+beacouse of  issue in block scope and function scope
 */

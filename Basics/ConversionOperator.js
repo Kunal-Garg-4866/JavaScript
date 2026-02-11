@@ -1,40 +1,45 @@
-let score = "33abc";
-//console.log(typeof score);
-//console.log(typeof (score));
+let score = true;
+// console.log (typeof score);
+// console.log (typeof (score));
 
-let valueofNumber = Number(score);
-//console.log(typeof valueofNumber);
-//console.log(valueofNumber);
+let valueInNumber = Number(score);
+// console.log(typeof valueInNumber);
 
 // "33" => 33
-// "33abc" => NaN
-// true => 1 , false => 0
+// "33asnf" => NaN
 
-let isLoggedIn = 1;
+let isLoggediN = "kunal";
 
-let booleanIsLoggedIn = Boolean(isLoggedIn);
+let booleanIsLoggedIn = Boolean(isLoggediN);
+//console.log(booleanIsLoggedIn);
+ // 1 => true; 0 => false
+// "" => false; "kunal " => true
+// null => false; undefined => false    
 
-//// ***************************** Operation *****************************??
+let someNumber = 33;
 
+let stringNumber = String(someNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+
+// ******************************Operations ************************
 let value = 3;
-let negvalue = -value;
-//console.log(negvalue);
+let negValue = - value;
+ //console.log(negValue);
 
-// console.log(2+2);
-// console.log("2"+"2");
-// console.log("2"+2);
-// console.log("2"-2);
-// console.log("2"*2);
-// console.log("2"/2);
+ let str1 = "Hello";
+ let str2 = " kunal";
+ let str3 = str1 + str2;
+//  console.log(str3);
 
-let str1 = "Hello ";    
-let str2 = "World";
-let str3 = str1 + str2;
-// console.log(str3);
+//  console.log("1"+2);
+//  console.log(1+"2");
+//  console.log("1"+2+3);
+console.log(+true);  // not important work
 
-console.log("1"+"2");
-console.log(1+"2");
-console.log("1" + 2 + 2); //122
-console.log(1 + 2 + "2"); //32
+
+ 
+
 
 

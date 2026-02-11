@@ -1,19 +1,25 @@
-"use strict"; // treat all js code as newer version
+"use strict"; // treat all js code a new version of js 
+ // alert("hello world"); we are using node js so we cannot use alert this is nnot s browser
 
-//alert(3+3);// we are using nodejs  , not browsing
-
-//console.log(3+
-   // 3) // code readability should be high this is wrong way 
-
-   // console.log("kunal"); 
+ console.log(3+3); // code readability should be high 
+ console.log("kunal");
 
 
-    // number => 2 to power 53
-    // string => ""
-    //boolean => true/false
-    // null => standalone value
-    // undefined => standalone value (value not assigned)
-    // symbol => unique
-    // object => key value pair
+ let name = "kunal";
+ let age = 20;
+ let isLoggedIn = true;
+ 
+ /* 
+ number => 2 to power 53;
+bigint 
+string => ""
+boolean => trye/false
+null => standalone value
+undefined => value is not assigned 
+symbol => unique
+objects
+*/
 
-    console.log(typeof "kunal"); // string
+console.log(typeof "kunal");
+console.log(typeof age);
+
