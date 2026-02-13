@@ -22,8 +22,11 @@ const reCount = 50;
  
  const url = "https://hiteh.com/hitesh%20garg";
  console.log(url.replace('%20','-'));
-
- console.log();
+ console.log(url.includes('hitesh'));
+ console.log(gameName.split('-'));
+ 
+ 
+ 
  
 
  
