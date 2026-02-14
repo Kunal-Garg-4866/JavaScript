@@ -57,4 +57,4 @@ const course = {
 //course.courseInstructor;
 
 const {courseInstructor: Instructor} = course; 
-console.log(Instructor);
+console.log(Instructor); 
